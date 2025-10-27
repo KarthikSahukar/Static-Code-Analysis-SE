@@ -1,0 +1,10 @@
+inventory_system.py:7:1: E302 expected 2 blank lines, found 1
+inventory_system.py:9:13: E225 missing whitespace around operator
+inventory_system.py:33:1: E302 expected 2 blank lines, found 1
+inventory_system.py:36:1: E302 expected 2 blank lines, found 1
+inventory_system.py:42:1: E302 expected 2 blank lines, found 1
+inventory_system.py:47:1: E302 expected 2 blank lines, found 1
+inventory_system.py:52:1: E302 expected 2 blank lines, found 1
+inventory_system.py:59:1: E302 expected 2 blank lines, found 1
+inventory_system.py:70:23: E261 at least two spaces before inline comment
+inventory_system.py:72:1: E305 expected 2 blank lines after class or function definition, found 1

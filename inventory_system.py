@@ -4,13 +4,14 @@ from datetime import datetime
 # Global variable
 stock_data = {}
 
-def addItem(item="default", qty=0, logs=[]):
+def addItem(item="default", qty=0, logs=None):
     if logs is None:
         logs=[]
 
     if not isinstance(item, str):
         print(f"Error: Item '{item}' is not a valid name. Skipping.")
         return
+
     if not isinstance(qty, int):
         print(f"Error: Quantity '{qty}' is not a valid number. Skipping.")
         return
@@ -19,6 +20,7 @@ def addItem(item="default", qty=0, logs=[]):
         return
     stock_data[item] = stock_data.get(item, 0) + qty
     logs.append("%s: Added %d of %s" % (str(datetime.now()), qty, item))
+
 
 def removeItem(item, qty):
     try:
