@@ -6,6 +6,8 @@ from datetime import datetime
 stock_data = {}
 
 def addItem(item="default", qty=0, logs=[]):
+    if logs is None:
+        logs=[]
     if not item:
         return
     stock_data[item] = stock_data.get(item, 0) + qty
