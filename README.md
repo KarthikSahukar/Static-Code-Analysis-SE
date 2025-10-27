@@ -1,8 +1,7 @@
 # Static-Code-Analysis-SE
 
-Of course. Here is the final table with the most important fixes documented, followed by the answers to your reflection questions.
 
-### Final Documentation of Fixed Issues
+### Table
 
 | Issue | Type | Line(s) | Description | Fix Approach |
 | --- | --- | --- | --- | --- |
